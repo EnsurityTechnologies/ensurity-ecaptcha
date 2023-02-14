@@ -1,0 +1,71 @@
+.captcha-component
+{
+  margin-top: 40;
+}
+
+.qrrow {
+    display: flex;
+    justify-content: center;
+}
+
+.qrbox {
+    width: 30%;
+    height: 60px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 2px solid #ebebeb;
+    box-shadow: 0 0 1px rgb(0 0 0 / 10%);
+    margin-top: 20px;
+    background: #f2f2f2;
+    border-radius: 5px;
+}
+
+.qrbox .qrinbox {
+    padding-left: 15px;
+    padding-top: 13px;
+}
+
+.qrbox .chech {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    float: left;
+    transition: all 0.3s ease-in-out;
+}
+
+.qrbox .chech .fa {
+    font-size: 25px;
+    display: none;
+}
+
+.qrbox .qrinbox .text {
+    display: inline-block;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+.qrbox .qrinbox .image {
+    display: inline-block;
+    width: 60px;
+    position: relative;
+    top: -6px;
+    float: right;
+    right: 7px;
+}
+
+.qrbox .qrinbox .image img {
+    width: 100%;
+}
+
+
+.ReactModal__Content.ReactModal__Content--after-open {
+  padding: 130px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .qrbox {
+    width: 90%;
+  }
+}
